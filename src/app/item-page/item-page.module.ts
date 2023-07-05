@@ -60,11 +60,13 @@ import { ThemedItemAlertsComponent } from './alerts/themed-item-alerts.component
 import {
   ThemedFullFileSectionComponent
 } from './full/field-components/file-section/themed-full-file-section.component';
+import { InvoiceComponent } from './simple/item-types/invoice/invoice.component';
 
 const ENTRY_COMPONENTS = [
   // put only entry components that use custom decorator
   PublicationComponent,
-  UntypedItemComponent
+  UntypedItemComponent,
+  InvoiceComponent
 ];
 
 const DECLARATIONS = [
@@ -103,6 +105,7 @@ const DECLARATIONS = [
   ItemAlertsComponent,
   ThemedItemAlertsComponent,
   BitstreamRequestACopyPageComponent,
+  InvoiceComponent
 ];
 
 @NgModule({
@@ -124,6 +127,7 @@ const DECLARATIONS = [
   ],
   declarations: [
     ...DECLARATIONS,
+    InvoiceComponent,
 
   ],
   exports: [

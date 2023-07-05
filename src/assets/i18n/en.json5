@@ -5216,4 +5216,21 @@
 
   "access-control-option-end-date-note": "Select the date until which the related access condition is applied",
 
+
+  "invoice.page.titleprefix": "Invoice:",
+
+  "invoiceitem.page.titleprefix": "Invoice Item:",
+
+
+  "relationships.isCustomerOfInvoice": "Customers:",
+
+  "relationships.isInvoiceItemOfInvoice": "Invoice Items:",
+
+
+  "invoiceitem.listelement.badge": "Invoice Item",
+
+  "invoice.listelement.badge": "Invoice"
+
+
+
 }
