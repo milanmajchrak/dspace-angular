@@ -75,4 +75,13 @@
       </a>
     </div>
   </div>
+  <div class="mt-5 w-100">
+    <ds-tabbed-related-entities-search  [item]="object"
+                                        [relationTypes]="[{
+                                          label: 'isCustomerOfInvoice',
+                                          filter: 'isCustomerOfInvoice',
+                                          configuration: 'person-relationships'
+                                        }]">
+    </ds-tabbed-related-entities-search>
+  </div>
 </div>
